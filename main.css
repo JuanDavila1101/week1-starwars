@@ -88,23 +88,23 @@ margin is outside of border*/
     color: white;
 }
 
-.person-cont {
+.actor-cont {
     display: flex;
     flex-flow: row wrap;
     padding: 40px;
 }
 
-.person {
+.actor {
     margin: 10px;
     border: 2px solid red;
     padding: 10;
 }
 
-.person img {
+.actor img {
     height: 400px;
 }
 
-.person h2 {
+.actor h2 {
     text-align: center;
     background-color: black;
     color: white;
