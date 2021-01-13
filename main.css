@@ -1,26 +1,111 @@
 body {
-  background-color: aquamarine;
+    background-color: aquamarine;
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: blue;
-  height: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    height: 60px;
 }
+
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-color: white;
-text-align: center;
-padding: 14px 16px 14px 16px;
-text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
 }
 
-li a:hover{
-  background-color: aqua;
-  color: green;
+li a:hover {
+    background-color: aqua;
+    color: green;
+}
+
+
+/*classes with . ids with #*/
+
+.section-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+/*row is the default*/
+
+
+/*section is a block element */
+
+
+/*commenting on the fly with Ctrl + /    */
+
+
+/* 
+
+
+article {
+    display: flex;
+    /* flex-direction: column; */
+
+
+/* flex-flow: row wrap;
+} */
+
+*/ section {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    width: 50px/*to make the flex fork*/
+    ;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    /*padding is inside
+margin is outside of border*/
+    /*flex makes the page responsive */
+}
+
+.card image {
+    height: 300px;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.person-cont {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px;
+}
+
+.person {
+    margin: 10px;
+    border: 2px solid red;
+    padding: 10;
+}
+
+.person img {
+    height: 400px;
+}
+
+.person h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
